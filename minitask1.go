@@ -14,6 +14,9 @@ func circumference(r float64)float64{
 }
 
 func main(){	
-	fmt.Println("Hasil Luas Keliling Lingkaran r = 7", areaOfCircle(7))
-	fmt.Println("Hasil Keliling Lingkaran r = 7", circumference(7))
+	var r float64
+	fmt.Println("Masukan Nilai Untuk Menghitung Luas & Keliling Lingkaran")
+	fmt.Scan(&r)
+	fmt.Println("Hasil Luas Keliling Lingkaran",r ,"adalah", areaOfCircle(r))
+	fmt.Println("Hasil Keliling Lingkaran",r, "adalah",circumference(r))
 }
